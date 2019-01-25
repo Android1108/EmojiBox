@@ -44,9 +44,9 @@ public class HomeFragment extends BaseFragment {
         mFragmentList=new ArrayList<>();
         HotFragment hotFragment=new HotFragment();
         NewFragment newFragment=new NewFragment();
-        mFragmentList.add(hotFragment);
-        mFragmentList.add(newFragment);
 
+        mFragmentList.add(newFragment);
+        mFragmentList.add(hotFragment);
         HomeFragmentAdapter adapter=new HomeFragmentAdapter(getChildFragmentManager(),mFragmentList);
 
         viewPager.setAdapter(adapter);

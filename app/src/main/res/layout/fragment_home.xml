@@ -8,10 +8,11 @@
     <android.support.design.widget.TabLayout
         android:id="@+id/fg_home_tab"
         android:layout_width="match_parent"
-        android:background="#42A8E4"
-        app:tabTextColor="@color/white70"
-        app:tabSelectedTextColor="@color/white"
-        app:tabIndicatorColor="@color/white"
+        android:background="#FFE414"
+        app:tabTextColor="@color/gray60"
+
+        app:tabSelectedTextColor="@color/black"
+        app:tabIndicatorColor="@color/black70"
         android:layout_height="45dp">
     </android.support.design.widget.TabLayout>
 

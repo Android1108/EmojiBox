@@ -85,7 +85,7 @@ public abstract class ActionbarActivity extends WidgetActivity {
 
         //初始化标题
 
-        mNoticeBar.setBackgroundColor(Color.parseColor("#42A8E4"));
+        mNoticeBar.setBackgroundColor(Color.parseColor("#FFE414"));
         mCenterToolbar.setTitle("");
         mCenterToolbar.setSubtitle("");
         setTitle("");

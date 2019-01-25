@@ -36,8 +36,9 @@ public class HotGifRecycleViewAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
         ((HotGifViewHolder)viewHolder).Text.setText(list.get(i).getGif_title());
+        //((HotGifViewHolder)viewHolder).Img.setImageBitmap(BitmapFactory.decodeResource(context.getResources(),R.drawable.honshaoyu));
 
-        Glide.with(context).load("http://goo.gl/gEgYUd").into( ((HotGifViewHolder)viewHolder).Img);
+        Glide.with(context).load("https://pic1.zhimg.com/80/v2-35b25f2406a9040c87fdff0d3c837330_hd.jpg").into( ((HotGifViewHolder)viewHolder).Img);
 
 
 
